@@ -1,0 +1,248 @@
+<?php
+/*Template name: Front-Page 2*/
+?>
+
+<?php get_header();?>
+
+<!--------------------------------------
+HEADER
+--------------------------------------->
+<!--Start desktop header-->
+
+                        <!-- Featured Post-->
+	      <?php get_template_part( 'template-parts/homepage_featured' );?>
+                        <!-- End Featured Post-->
+
+<!-- End desktop Header -->
+
+<!-- End Header -->
+
+    
+    
+<!--------------------------------------
+MAIN
+--------------------------------------->
+
+<div class="container">
+<h2 class="justify-content-center font-weight-bold spanborder">Latest reviews</h2>
+</div>
+
+    
+<div class="container pt-4 pb-4">
+	<div class="row">
+		<div class="col-lg-6">
+           
+<div class="card rounded rounded-0 border border-0">
+<img class="card-img-top rounded rounded-0" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg" alt="Card image cap" style=" object-fit: cover; height:200px">  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-dark text-white">Go somewhere</a>
+  </div>
+</div>
+
+
+
+				
+		</div>
+		<div class="col-lg-6">
+			<div class="flex-md-row mb-4 box-shadow h-xl-300">
+				<div class="mb-3 d-flex align-items-center">
+					<img height="100" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg">
+					<div class="p-2">
+						<h2 class="mb-2 h6 font-weight-bold">
+						<a class="text-dark text-decoration-none" href="./article.html"> "The Raspberry pi offers ground-							breaking increases in processor speed, multimedia performance"</a>
+						</h2>
+						<div class="card-text text-muted small">
+							Article by: <i>Martin Williams</i>
+						</div>
+						<small class="text-muted">January 25 · 2 min read</small>
+					</div>
+				</div>
+								<div class="mb-3 d-flex align-items-center">
+					<img height="100" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg">
+					<div class="p-2">
+						<h2 class="mb-2 h6 font-weight-bold">
+						<a class="text-dark text-decoration-none" href="./article.html"> "The Raspberry pi offers ground-							breaking increases in processor speed, multimedia performance"</a>
+						</h2>
+						<div class="card-text text-muted small">
+							Article by: <i>Martin Williams</i>
+						</div>
+						<small class="text-muted">January 25 · 2 min read</small>
+					</div>
+				</div>
+								<div class="mb-3 d-flex align-items-center">
+					<img height="100" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg">
+					<div class="p-2">
+						<h2 class="mb-2 h6 font-weight-bold">
+						<a class="text-dark text-decoration-none" href="./article.html"> "The Raspberry pi offers ground-							breaking increases in processor speed, multimedia performance"</a>
+						</h2>
+						<div class="card-text text-muted small">
+							Article by: <i>Martin Williams</i>
+						</div>
+						<small class="text-muted">January 25 · 2 min read</small>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container">
+<h2 class="justify-content-center font-weight-bold spanborder">Latest projects</h2>
+</div>
+
+    
+<div class="container pt-4 pb-4">
+	<div class="row">
+		<div class="col-lg-6">
+           
+<div class="card rounded rounded-0 border border-0">
+<img class="card-img-top rounded rounded-0" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg" alt="Card image cap" style=" object-fit: cover; height:150px">  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-dark text-white">Go somewhere</a>
+  </div>
+</div>
+
+
+
+				
+		</div>
+		<div class="col-lg-6">
+			<div class="flex-md-row mb-4 box-shadow h-xl-300">
+				<div class="mb-3 d-flex align-items-center">
+					<img height="100" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg">
+					<div class="p-2">
+						<h2 class="mb-2 h6 font-weight-bold">
+						<a class="text-dark text-decoration-none" href="./article.html"> "The Raspberry pi offers ground-							breaking increases in processor speed, multimedia performance"</a>
+						</h2>
+						<div class="card-text text-muted small">
+							Article by: <i>Martin Williams</i>
+						</div>
+						<small class="text-muted">January 25 · 2 min read</small>
+					</div>
+				</div>
+				<div class="mb-3 d-flex align-items-center">
+					<img height="100" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg">
+					<div class="p-2">
+						<h2 class="mb-2 h6 font-weight-bold">
+						<a class="text-dark text-decoration-none" href="./article.html"> "The Raspberry pi offers ground-							breaking increases in processor speed, multimedia performance"</a>
+						</h2>
+						<div class="card-text text-muted small">
+							Article by: <i>Martin Williams</i>
+						</div>
+						<small class="text-muted">January 25 · 2 min read</small>
+					</div>
+				</div>
+				<div class="mb-3 d-flex align-items-center">
+					<img height="100" src="https://techhobbyist.co.uk/wp-content/uploads/2022/04/rpi4_4.jpg">
+					<div class="p-2">
+						<h2 class="mb-2 h6 font-weight-bold">
+						<a class="text-dark text-decoration-none" href="./article.html"> "The Raspberry pi offers ground-							breaking increases in processor speed, multimedia performance"</a>
+						</h2>
+						<div class="card-text text-muted small">
+							Article by: <i>Martin Williams</i>
+						</div>
+						<small class="text-muted">January 25 · 2 min read</small>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+    
+<div class="container">
+	<div class="row justify-content-between">
+		<div class="col">
+			<h5 class="font-weight-bold spanborder"><span>Latest tech news</span></h5>
+			<div class="mb-3 d-flex justify-content-between">
+				
+
+<?php
+$xml = file_get_contents('https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvS0wyMHZNR2R0WnpNMlp4SUZaVzR0UjBJb0FBUAE?ceid=GB:en&oc=3&hl=en-GB&gl=GB'); //Gets RSS Feed URL
+
+echo '<div class="container mt-4">'; // Renders the bootstrap contailer
+
+$xml_parse = simplexml_load_string($xml); // Stores $xml to $xml_parse via simplexml_load_string
+//echo "<pre>";print_r($xml_parse);echo "</pre>"; //Uncomment to run test/debug
+
+//About Feed
+//foreach($xml_parse->channel as $aboutfeeds=>$aboutfeed)
+//		{
+//			echo '<h2><h4>Feed description: '.$aboutfeed->description.'</h2><br>';
+//		}		
+
+
+
+
+$LoopCounter = 0; //Sets loop counter to zero
+	while($LoopCounter < 10){
+		foreach($xml_parse->channel->item as $feed=>$feeds)
+		{
+			echo '<ul class="list-group">';
+			echo '<li class="list-group-item border-0"><h4>'.$feeds->title.'</h4></li>';
+			$RSSlink  = $feeds->link;
+			$utmRSSlink= $RSSlink. "/" . $utm  = $_REQUEST[ '?				
+			utm_source=techhobbyist.co.uk&utm_medium=techhobbyist.co.uk+homepage+google+news+feed'];	;
+			$RSSdescription = strip_tags($feeds->description);
+			echo '<li class="list-group-item border-0"><p>Description: '.$RSSdescription .'</p></li>';
+			echo '<li class="list-group-item border-0"><a href='.$utmRSSlink.' target="_blank"</>Link to article</a></li>';
+			echo '<li class="list-group-item border-0"><h6>Posted: '.$feeds->pubDate.'   By   <i>'.$feeds->source.'</i></h6></li>';
+			echo '</ul><hr><br>';
+			$LoopCounter ++; // Increments $LoopCounter by 1.
+			if ($LoopCounter == 10) { // Breaks when $LoopCounter = 10
+			            break 2;  // breaks both foreach loop and while loop 
+			}
+		}		
+		}
+echo '</br>';
+
+
+
+
+//About Feed
+foreach($xml_parse->channel as $aboutfeeds=>$aboutfeed)
+		{
+			echo '<ul class="list-group">';
+			echo '<li class="list-group-item border-0"><h6>Updated on: '.$aboutfeed->lastBuildDate.'</i></h6></li>';
+			echo '<li class="list-group-item border-0"><h6>Copyright @  '.$aboutfeed->copyright.'</i></h6></li>';
+			$feedlink  = $aboutfeed->link;
+			echo '<li class="list-group-item border-0"><a href='.$feedlink.'</>RSS feed link</a></li>';
+			echo '<li class="list-group-item border-0"><p>Language: '.$aboutfeed->language.'</i></p></li>';
+			echo '<li class="list-group-item border-0"><p>Generator: '.$aboutfeed->generator.'</i></p></li>';
+			echo '</ul><br>';
+		}		
+echo '</div>';
+
+
+
+?>
+
+
+
+				
+			</div>
+			
+		</div>
+<div class="col-md-4 pl-4">
+            <h5 class="font-weight-bold spanborder"><span>Advertising</span></h5>
+			
+<!-- Homepage side bar ad slot-->
+	<div class="Home_Page_MPU_adslot sticky-top">
+	<p class="text-center p-1">Advertisment</p>
+
+	</div>
+
+
+		</div>
+	</div>
+</div>
+
+
+<?php get_footer();?>
