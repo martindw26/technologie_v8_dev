@@ -83,11 +83,11 @@
 <div class="non_featured_block_home_page">
 
 
-<div class="container"><!-- small non-fetured block-->
+<div class="container shadow-sm p-3 mb-5 bg-body rounded"><!-- small non-fetured block-->
 
 <div class="row">
 <?php $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>
-  <div class="col"><img class="img-fluid featured rounded rounded-1 shadow-sm p-3 mb-5 bg-body rounded" src="<?php echo $url ?>" style="height:150px";>
+  <div class="col"><img class="img-fluid featured rounded rounded-1" src="<?php echo $url ?>" style="height:150px";>
 </div>
     <div class="col-6">
     <p class="card-title fw-bold"><?php echo get_the_title();?></p>
