@@ -27,7 +27,7 @@
                                           while ($block1->have_posts()) : $block1->the_post();?>
 
 
-<div class="card rounded rounded-0 border border-0 shadow-sm p-3 mb-5 bg-body rounde"><!-- non-fetured block-->
+<div class="card rounded rounded-0 border border-0 shadow-sm p-3 mb-5 bg-body rounded"><!-- non-fetured block-->
 <?php $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>
 <img class="card-img-top rounded rounded-1 featured" src="<?php echo $url ?>" alt="Card image cap" style=" object-fit: cover; height:300px">  <div class="card-body">
     <h4 class="card-title fw-bold"><?php echo get_the_title();?></h4>
@@ -87,7 +87,7 @@
 
 <div class="row">
 <?php $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>
-  <div class="col"><img class="img-fluid featured rounded rounded-1" src="<?php echo $url ?>" style="height:150px";>
+  <div class="col"><img class="img-fluid featured rounded rounded-1 shadow-sm p-3 mb-5 bg-body rounded" src="<?php echo $url ?>" style="height:150px";>
 </div>
     <div class="col-6">
     <p class="card-title fw-bold"><?php echo get_the_title();?></p>
