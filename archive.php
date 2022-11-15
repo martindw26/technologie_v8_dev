@@ -50,7 +50,7 @@
 <div class="row"><!-- block left-->
     <div class="col-md-6 col-sm bg-white text-dark">
     <?php $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>
-    <img class="img-fluid featured rounded rounded-1" src="<?php echo $url ?>" style="height:150px";>
+      <img class="img-fluid p-1 rounded-1" src="<?php echo $url ?>"/>
     </div><!-- End block right-->
     <div class="col-md-6 col-sm bg-white text-dark"><!-- block right-->
  <h5 class="card-title"><?php echo get_the_title();?></h5>
