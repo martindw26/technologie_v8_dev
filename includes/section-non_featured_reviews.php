@@ -1,4 +1,4 @@
-<div class="container bg-light">
+<div class="container">
 	<h2 class=" post_block_title text-dark">Latest <i>Reviews</i></h2>
 </div>
 <div class="container pt-lg-4 pb-lg-4">
