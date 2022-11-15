@@ -5,30 +5,21 @@
 <?php get_header();?>
 
 
-
                         <!-- Featured Post-->
-                        <div class="bg-light">
-	                    <?php get_template_part('includes/section','hp_featured_slider');?><hr class="container bg-light">
-                        </div>
+	       <?php get_template_part('includes/section','hp_featured_slider');?><hr class="container">
 
                         <!-- End Featured Post-->
                         
                         <!-- Reviews Post Block-->
-                        <div class="bg-light">
-                        <?php get_template_part('includes/section','non_featured_reviews');?><hr class="container bg-light">
-                        </div>
+                        <?php get_template_part('includes/section','non_featured_reviews');?><hr class="container">
                         <!-- End of Reviews Post Block--> 
                                     
                         <!-- Projects Post Block-->
-                        <div class="bg-light">
-                        <?php get_template_part('includes/section','non_featured_projects');?><hr class="container bg-light">
-                        </div>
+                        <?php get_template_part('includes/section','non_featured_projects');?><hr class="container">
                         <!-- End of Projects Post Block-->
 
                         <!-- Projects Post Block-->
-                        <div class="bg-light">
                         <?php get_template_part('includes/section','homepage_deals_block');?>
-                        </div>
                         <!-- End of Projects Post Block-->
 
                         </div>
