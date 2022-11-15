@@ -4,6 +4,7 @@
 
 <?php get_header();?>
 
+<div class="bg-light">
 
                         <!-- Featured Post-->
 	       <?php get_template_part('includes/section','hp_featured_slider');?><hr class="container">
@@ -28,6 +29,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <?php get_footer();?>
