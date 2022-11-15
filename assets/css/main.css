@@ -1,6 +1,5 @@
 body, html {
   font-size: 1rem;
-  background-color: #cecece24;
 }
 
 @include media-breakpoint-up(sm) {
@@ -27,7 +26,6 @@ body {
 
 overflow-x: hidden
 font-family: 'Open Sans', sans-serif; 
-background-color: #cecece24;
 }
 
 .back.cmplz-marketing.cmplz-statistics.cmplz-preferences.cmplz-functional.cmplz-uk.cmplz-optin{
@@ -400,4 +398,6 @@ div#rating_statement_review {
 }
 
 
-
+body {
+  background-color: #cecece24!important;
+}
