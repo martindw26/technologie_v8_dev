@@ -33,6 +33,36 @@
 
     <!-- End Single internal button Block-->
 
+
+
+	<!-- Single internal button Block post object-->
+
+    <?php if (get_row_layout() == 'internal_link_button_object'):
+            	$internal_link_button = get_sub_field('internal_link_button_object');
+				$link = get_sub_field('link');
+				$internal_link_name = get_sub_field('internal_link_name');
+    	?>	
+    	
+
+    	<?php if ($link): ?>
+    <div class="d-grid">
+<?php 
+
+    $link_url = $link['url'];
+    $link_title = $link['title'];
+    $link_target = $link['target'] ? $link['target'] : '_self';
+    ?>
+		        <button type="button" class="btn btn-primary rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_url( $link_url ); ?>" '> <?php echo $internal_link_name; ?></a></h6></button>
+		          </div>
+<?php endif; ?>
+
+    	
+		      
+	
+    <?php endif; ?>
+
+    <!-- End Single internal button Block post object-->
+
 <?php if (get_row_layout() == 'affiliate_block'):
 ?>
 <div class=" col-lg-8 p-lg-2 bg-white text-dark p-1 pb-4"><h4 class="card-title font-weight-bold">Deals</h4></div>
