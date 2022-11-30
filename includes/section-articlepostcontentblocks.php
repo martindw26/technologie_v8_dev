@@ -44,7 +44,7 @@
 			
     <div class="d-grid">
         
-	</div><button type="button" class="btn btn-primary btn-lg btn-block rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_html( $featured_post->guid ); ?>" '> <?php echo $featured_post->post_title; ?></a></h6></button>
+	<button type="button" class="btn btn-primary btn-lg btn-block rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_html( $featured_post->guid ); ?>" '> <?php echo $featured_post->post_title; ?></a></h6></button></div>
 		<?php endif; ?>
     <?php endif; ?>
 
