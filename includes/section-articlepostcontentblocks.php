@@ -43,8 +43,8 @@
     	<?php if ($featured_post): ?>
 			<?php var_dump($featured_post);?>
     <div class="d-grid">
-        <button type="button" class="btn btn-primary rounded rounded-0"><h3><?php echo esc_html( $featured_post->post_title ); ?></h3></button>
-	</div>
+        
+	</div><button type="button" class="btn btn-primary rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_html( $featured_post->post_title ); ?>" '> <?php echo $internal_link_name; ?></a></h6></button>
 		<?php endif; ?>
     <?php endif; ?>
 
