@@ -41,10 +41,10 @@
 		$featured_post = get_sub_field('internal_link_button_object');
     ?>	
     	<?php if ($featured_post): ?>
-			<?php var_dump($featured_post);?>
+			
     <div class="d-grid">
         
-	</div><button type="button" class="btn btn-primary rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_html( $featured_post->post_title ); ?>" '> <?php echo $internal_link_name; ?></a></h6></button>
+	</div><button type="button" class="btn btn-primary rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_html( $featured_post->guid ); ?>" '> <?php echo $featured_post->post_title; ?></a></h6></button>
 		<?php endif; ?>
     <?php endif; ?>
 
