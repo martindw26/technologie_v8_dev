@@ -37,22 +37,17 @@
 
 	<!-- Single internal button Block post object-->
 
-    <?php if (get_row_layout() == 'internal_link_button_object'):
-            	$internal_link_button = get_sub_field('internal_link_button_object');
-				$link = get_sub_field('link');
-				$internal_link_name = get_sub_field('internal_link_name');
+    <?php if (get_row_layout() == 'featured_post'):
+			$featured_post = get_sub_field('featured_post');
     	?>	
     	
 
-    	<?php if ($link): ?>
+    	<?php if ($featured_post): ?>
     <div class="d-grid">
 <?php 
 
-    $link_url = $link['url'];
-    $link_title = $link['title'];
-    $link_target = $link['target'] ? $link['target'] : '_self';
     ?>
-		        <button type="button" class="btn btn-primary rounded rounded-0"><h6 class="text-white text-decoration-none"><a class="text-white text-decoration-none" href='<?php echo esc_url( $link_url ); ?>" '> <?php echo $internal_link_name; ?></a></h6></button>
+		        <button type="button" class="btn btn-primary rounded rounded-0"><h3><?php echo esc_html( $featured_post->post_title ); ?></h3></button>
 		          </div>
 <?php endif; ?>
 
