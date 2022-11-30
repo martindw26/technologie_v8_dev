@@ -38,22 +38,13 @@
 	<!-- Single internal button Block post object-->
 
     <?php if (get_row_layout() == 'featured_post'):
-			$featured_post = get_sub_field('featured_post');
-    	?>	
-    	
-
+		$featured_post = get_sub_field('internal_link_button_object');
+    ?>	
     	<?php if ($featured_post): ?>
     <div class="d-grid">
-<?php 
-
-    ?>
-		        <button type="button" class="btn btn-primary rounded rounded-0"><h3><?php echo esc_html( $featured_post->post_title ); ?></h3></button>
-		          </div>
-<?php endif; ?>
-
-    	
-		      
-	
+        <button type="button" class="btn btn-primary rounded rounded-0"><h3><?php echo esc_html( $featured_post->post_title ); ?></h3></button>
+	</div>
+		<?php endif; ?>
     <?php endif; ?>
 
     <!-- End Single internal button Block post object-->
