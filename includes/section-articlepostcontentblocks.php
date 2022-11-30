@@ -41,6 +41,7 @@
 		$featured_post = get_sub_field('internal_link_button_object');
     ?>	
     	<?php if ($featured_post): ?>
+			var_dump($featured_post);
     <div class="d-grid">
         <button type="button" class="btn btn-primary rounded rounded-0"><h3><?php echo esc_html( $featured_post->post_title ); ?></h3></button>
 	</div>
