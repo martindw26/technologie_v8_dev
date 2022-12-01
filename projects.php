@@ -42,6 +42,10 @@
              <?php get_template_part('includes/section','articlepostcontentblocks');?>
              <!-- End Article content blocks-->
 
+            <!-- Article content disclaimer block -->
+            <?php get_template_part('includes/section','disclaimer');?>
+            <!-- End content disclaimer block-->
+
              <!-- meta block-->
              <?php get_template_part('includes/section','meta');?>
              <!-- End meta block-->
