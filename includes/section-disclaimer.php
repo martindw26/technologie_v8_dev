@@ -4,7 +4,7 @@ $disclaimer_url = get_field( 'article_post_content_disclaimer_block_url','option
 
 if(get_field('article_post_content_disclaimer_block_text','option'))
 {
-    echo '<p>' . $disclaimer_text . '<a href='.$disclaimer_url.' target="_blank"/>&#9432;</a></p>';
+    echo '<p class="font-weight-normal">' . $disclaimer_text . '<a href='.$disclaimer_url.' target="_blank"/> &#x1F6C8; </a></p>';
 }
 
 ?>
