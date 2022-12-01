@@ -37,7 +37,7 @@
              <!-- End Article content blocks-->
 
             <!-- Article content disclaimer block -->
-            <?php get_template_part('includes/section','articlepostcontentdisclaimerblock');?>
+            <?php get_template_part('includes/section','section-disclaimer');?>
             <!-- End content disclaimer block-->
 
               <!-- meta block-->
