@@ -53,8 +53,8 @@ background-color:
 /*Ads*/
 
 
-@media (max-width:480px ){
-    .commerce_ldr{
+@media (min-width: 768px) {
+    .commerce_hp_mobile{
       display: none;
     }
 }
