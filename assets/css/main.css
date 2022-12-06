@@ -65,6 +65,18 @@ background-color:
   }
 }
 
+@media (min-width: 768px) {
+  .commerce_hp_desktop{
+    display: block;
+  }
+}
+
+@media (max-width:480px ){
+.commerce_hp_desktop{
+  display: none;
+}
+}
+
       @media (min-width: 768px) {
         .Home_Page_MPU_adslot {
           min-height: 610px;
