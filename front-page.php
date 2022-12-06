@@ -18,7 +18,7 @@
                         <!-- End of Reviews Post Block--> 
 
 				<!-- Header middle adslot-->
-	       		<?php get_template_part('includes/section','middle_header_slot_ad');?>
+	       		<?php get_template_part('includes/section','section-middle_header_ad');?>
                  <!-- End Header middle adslot-->
                                     
                         <!-- Projects Post Block-->
