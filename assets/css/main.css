@@ -56,28 +56,28 @@ background-color:
 @media (min-width: 768px) {
     .commerce_hp_mobile{
       display: none;
-      background-color: #f9f9f9;
+ 
     }
 }
 
 @media (max-width:480px ){
   .commerce_hp_mobile{
     display: block;
-    background-color: #f9f9f9;
+ 
   }
 }
 
 @media (min-width: 768px) {
   .commerce_hp_desktop{
     display: block;
-    background-color: #f9f9f9;
+
   }
 }
 
 @media (max-width:480px ){
 .commerce_hp_desktop{
   display: none;
-  background-color: #f9f9f9;
+
 }
 }
 
@@ -86,7 +86,7 @@ background-color:
           min-height: 610px;
           max-height: 610px;
           width:310px;
-          background-color:#f9f9f9;
+          background-color:#dee2e6;
           margin: 0 auto;
         }
       }
@@ -97,7 +97,7 @@ background-color:
           min-height: 310px;
           max-height: 310px;
           width:310px;
-          background-color:#f9f9f9;;
+          background-color:#dee2e6;;
           margin: 0 auto;
         }
       }
