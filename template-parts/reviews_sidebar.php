@@ -63,5 +63,13 @@ while ($block1->have_posts()) : $block1->the_post();?>
 <?php endwhile;  else :  endif; wp_reset_postdata();?>
 
 
+<div class="Commercial">
+	<div class="MPU">
+				<!-- MPU ad adslot-->
+	       		<?php get_template_part('includes/section','mpu_ad');?>
+                 <!-- End MPU ad adslot-->
+	</div>
+</div>
+
 </div>
 </div>
