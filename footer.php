@@ -13,7 +13,7 @@
 
 <div class="container-fluid mt-3 text-decoration-none">
   <div class="row">
-    <div class="col-lg-2 col-sm-4 p-3 text-decoration-none">
+    <div class="col-lg col-sm-4 p-3 text-decoration-none">
     	<?php
 					wp_nav_menu(
 						array(
