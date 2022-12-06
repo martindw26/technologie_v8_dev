@@ -52,6 +52,19 @@ background-color:
 
 /*Ads*/
 
+
+@media (max-width:480px ){
+    .commerce_ldr{
+      display: none;
+    }
+}
+
+@media (max-width:480px ){
+  .commerce_mobile{
+    display: block;
+  }
+}
+
       @media (min-width: 768px) {
         .Home_Page_MPU_adslot {
           min-height: 610px;
