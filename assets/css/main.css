@@ -60,7 +60,7 @@ background-color:
 }
 
 @media (max-width:480px ){
-  .commerce_mobile{
+  .commerce_hp_mobile{
     display: block;
   }
 }
