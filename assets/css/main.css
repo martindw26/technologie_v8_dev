@@ -168,7 +168,7 @@ p.header-social{ background-color: black;}
   }
   .topnav.responsive a {
     float: none;
-    display: block;
+    display: flex;
     text-align: left;
   }
 }
