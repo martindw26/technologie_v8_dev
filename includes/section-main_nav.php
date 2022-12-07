@@ -1,5 +1,6 @@
 <div class="container">
 <div class="topnav">
+<div class="nav nav-pills flex-column flex-sm-row">    
 	<?php
 	wp_nav_menu(
 		array(
@@ -8,6 +9,7 @@
 		)
 		);
 	?>
+</div>
 </div>
 </div>
 </div>
