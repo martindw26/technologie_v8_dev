@@ -120,39 +120,7 @@ p.header-social{ background-color: black;}
   padding: 2rem 0;
 }
 
-/* Style the top navigation bar */
 
-.sub-menu{
-  list-style:none !important;
-  position:absolute;
-  display:none;
-  }
-  .nav li:hover > ul.sub-menu{
-  display: block;
-  margin: 0;
-  }
-  
-  .sub-menu li{
-  width:100px;
-  margin-left:-33px;
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-  padding:8px;
-  }
-
-  @media screen and (max-width: 760px) {
-    .sub-menu{
-    display:block !important;
-    position:relative;
-    }
-    
-    .sub-menu a{
-    color:#666;
-    text-decoration:none;
-    cursor: pointer;
-    }
-    
-    }
 
 header.head.text-white.p-2 {
     background-color: black;
