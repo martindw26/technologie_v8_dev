@@ -164,7 +164,10 @@ ul#menu-primary {
   text-decoration: none;
   list-style: none;
   display: flex;
-  padding: 1 rem;
+  padding: 8px;
+}
+
+#li#menu-item{
   padding: 8px;
 }
 
