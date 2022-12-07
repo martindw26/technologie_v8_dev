@@ -12,7 +12,6 @@
 <?php wp_nav_menu( array(
 'container' => 'ul',
 'menu_class' => 'nav navbar-nav',
-'menu_id' => 'bootmenu',
 'echo' => true,
 'theme_location' => 'primary',
 ) );?>
