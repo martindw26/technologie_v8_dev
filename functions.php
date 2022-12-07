@@ -129,18 +129,6 @@ function ww_load_dashicons(){
 }
 add_action('wp_enqueue_scripts', 'ww_load_dashicons', 999);
 
-
-
-/* ------------------------------------------------
-    Register custom nav walker
---------------------------------------------------- */
-
-function register_navwalker(){
-	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
-}
-add_action( 'after_setup_theme', 'register_navwalker' );
-
-
 /* ------------------------------------------------
     External functions
 --------------------------------------------------- */
