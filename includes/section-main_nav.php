@@ -1,3 +1,4 @@
+<div class="container">
 <div class="topnav">
 	<?php
 	wp_nav_menu(
@@ -7,5 +8,5 @@
 		)
 		);
 	?>
-	</div>
-		</div>
+</div>
+</div>
