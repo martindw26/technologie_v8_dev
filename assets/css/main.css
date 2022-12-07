@@ -160,6 +160,14 @@ p.header-social{ background-color: black;}
   align-items: center;
 }
 
+ul#menu-primary {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 1 rem;
+  padding: 8px;
+}
+
 /* in screen media, when the max-width is 500px (or less): */
 @media screen and (max-width: 500px) {
    /* we redefine the custom CSS property, which is automatically applied once it's
