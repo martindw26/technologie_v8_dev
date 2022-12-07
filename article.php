@@ -1,6 +1,6 @@
 <?php
   get_header();
- /* Template Name: Review Post*/
+ /* Template Name: Article Post*/
  /* Template Post Type: post */
 ?>  
 
@@ -23,9 +23,6 @@
 				<!-- End Social share icons-->
 
 
-               <?php get_template_part('includes/section','reviewrating');?><br><br>
-
-
              <!-- header image block-->
                                                 
              <?php get_template_part('includes/section','header-image block');?>
@@ -33,7 +30,7 @@
              <!-- End header image block-->
 
              <!-- Article content blocks -->
-             <?php get_template_part('includes/section','reviewprojectpostcontentblocks');?>
+             <?php get_template_part('includes/section','articlepostcontentblocks');?>
              <!-- End Article content blocks-->
 
             <!-- Article content disclaimer block -->
