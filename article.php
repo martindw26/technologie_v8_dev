@@ -30,7 +30,7 @@
              <!-- End header image block-->
 
              <!-- Article content blocks -->
-             <?php get_template_part('includes/section','articlepostcontentblocks');?>
+             <?php get_template_part('includes/section','article');?>
              <!-- End Article content blocks-->
 
             <!-- Article content disclaimer block -->
