@@ -14,7 +14,9 @@
             <h1 class=" display-2 font-weight-bold text-dark" style=""><?php $feed = the_field('page_title');?></h1>
 
 
-
+          <div class="container-fluid">
+          <?php the_field('description');?>
+          </div>
 
 
 				<!-- Social share icons-->
