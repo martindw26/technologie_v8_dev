@@ -1,6 +1,7 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="container">
-<div class="topnav">
-<div class="nav nav-pills flex-column flex-sm-row">    
+<div class="topnav" id="myTopnav">
 	<?php
 	wp_nav_menu(
 		array(
@@ -9,7 +10,5 @@
 		)
 		);
 	?>
-</div>
-</div>
 </div>
 </div>
