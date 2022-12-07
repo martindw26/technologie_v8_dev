@@ -57,7 +57,7 @@ for (i = 0; i < coll.length; i++) {
 		  <a href="https://techhobbyist.co.uk"/><img src="<?php the_field ('site_logo_desktop', 'option');?>" class="img-fluid bg-dark border-0"</></a>
 
       <?php get_template_part('includes/section','main_nav');?>
-
+</div>
 
         
 
