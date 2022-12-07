@@ -129,9 +129,7 @@ function ww_load_dashicons(){
 }
 add_action('wp_enqueue_scripts', 'ww_load_dashicons', 999);
 
-/* ------------------------------------------------
-    External functions
---------------------------------------------------- */
+
 
 /* ------------------------------------------------
     Register custom nav walker
@@ -142,5 +140,9 @@ function register_navwalker(){
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
 
+
+/* ------------------------------------------------
+    External functions
+--------------------------------------------------- */
 
 ?>
