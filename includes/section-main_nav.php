@@ -1,13 +1,12 @@
-<nav id="nav-bar">
-  <div class="menu">
-  <?php
+
+<div class="topnav">
+	<?php
 	wp_nav_menu(
 		array(
 		'theme_location' => 'primary',
-		'menu_class' => 'nav-bar' 
+		'menu_class' => 'topnav' 
 		)
 		);
 	?>
-  </div>
-</nav>
-</div>
+	</div>
+		</div>
