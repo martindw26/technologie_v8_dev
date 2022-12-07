@@ -137,9 +137,6 @@ add_action('wp_enqueue_scripts', 'ww_load_dashicons', 999);
     Register custom nav walker
 --------------------------------------------------- */
 
-/**
- * Register Custom Navigation Walker
- */
 function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
