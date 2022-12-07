@@ -155,7 +155,7 @@ p.header-social{ background-color: black;}
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-    display: block;
+    display: flex;
   }
 }
 
